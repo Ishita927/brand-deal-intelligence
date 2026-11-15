@@ -1,0 +1,1168 @@
+{
+  "as_of": "2026-11-12",
+  "creator": "Riya Menon",
+  "warnings": [],
+  "stats": {
+    "emails": 15,
+    "deals": 12,
+    "email_categories": {
+      "deal_offer": 9,
+      "scam_or_phishing": 3,
+      "needs_more_info": 2,
+      "spam": 1
+    },
+    "deal_actions": {
+      "negotiate": 6,
+      "ignore_or_report": 3,
+      "accept": 1,
+      "ask_for_details": 2
+    },
+    "needs_attention": 9,
+    "analysis_errors": 0,
+    "first_error": null
+  },
+  "emails": [
+    {
+      "email_id": "E-01",
+      "sender": "partnerships@dewlab.in",
+      "subject": "Collab: Dew Lab x Riya Creates",
+      "date": "2026-11-03 10:12",
+      "category": "deal_offer",
+      "category_reason": "Dew Lab offers INR 1,20,000 for 2 Instagram reels and 3 Instagram stories with 3 months of usage rights.",
+      "llm_category": "deal_offer",
+      "scam_signals": [],
+      "error": null,
+      "deal_id": "deal_01",
+      "extraction": {
+        "category": "deal_offer",
+        "category_reason": "Dew Lab offers INR 1,20,000 for 2 Instagram reels and 3 Instagram stories with 3 months of usage rights.",
+        "brand": "Dew Lab",
+        "agency": null,
+        "contact_name": "Kavya",
+        "contact_email": "partnerships@dewlab.in",
+        "mentions_earlier_message": false,
+        "deliverables": [
+          {
+            "platform": "instagram",
+            "kind": "reel",
+            "quantity": 2
+          },
+          {
+            "platform": "instagram",
+            "kind": "story",
+            "quantity": 3
+          }
+        ],
+        "fee": 120000.0,
+        "currency": "INR",
+        "payment_type": "cash",
+        "deadline": "2026-11-25",
+        "usage_rights": "3 months of usage rights for paid ads",
+        "exclusivity_requested": null,
+        "product_category": "skincare",
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [],
+        "suspicious_signals": [],
+        "missing_info": [],
+        "notes": null
+      }
+    },
+    {
+      "email_id": "E-02",
+      "sender": "partnerships@dewlab.in",
+      "subject": "Re: Collab: Dew Lab x Riya Creates",
+      "date": "2026-11-06 16:40",
+      "category": "deal_offer",
+      "category_reason": "Dew Lab follows up with a revised offer of INR 1,00,000 for the same deliverables.",
+      "llm_category": "deal_offer",
+      "scam_signals": [],
+      "error": null,
+      "deal_id": "deal_01",
+      "extraction": {
+        "category": "deal_offer",
+        "category_reason": "Dew Lab follows up with a revised offer of INR 1,00,000 for the same deliverables.",
+        "brand": "Dew Lab",
+        "agency": null,
+        "contact_name": "Kavya",
+        "contact_email": "partnerships@dewlab.in",
+        "mentions_earlier_message": true,
+        "deliverables": [
+          {
+            "platform": "instagram",
+            "kind": "reel",
+            "quantity": 2
+          },
+          {
+            "platform": "instagram",
+            "kind": "story",
+            "quantity": 3
+          }
+        ],
+        "fee": 100000.0,
+        "currency": "INR",
+        "payment_type": "cash",
+        "deadline": "2026-11-25",
+        "usage_rights": null,
+        "exclusivity_requested": null,
+        "product_category": "skincare",
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [],
+        "suspicious_signals": [],
+        "missing_info": [],
+        "notes": null
+      }
+    },
+    {
+      "email_id": "E-03",
+      "sender": "ambassador@glowstar-official.co",
+      "subject": "Congratulations! You're selected as a Brand Ambassador",
+      "date": "2026-11-04 09:05",
+      "category": "scam_or_phishing",
+      "category_reason": "Asks you to pay a fee",
+      "llm_category": "scam_or_phishing",
+      "scam_signals": [
+        "Asks you to pay a fee"
+      ],
+      "error": null,
+      "deal_id": "deal_02",
+      "extraction": {
+        "category": "scam_or_phishing",
+        "category_reason": "The email requires the creator to pay an upfront registration fee to participate in the programme.",
+        "brand": "Glowstar",
+        "agency": null,
+        "contact_name": null,
+        "contact_email": "ambassador@glowstar-official.co",
+        "mentions_earlier_message": false,
+        "deliverables": [],
+        "fee": null,
+        "currency": "INR",
+        "payment_type": "affiliate",
+        "deadline": "2026-11-05",
+        "usage_rights": null,
+        "exclusivity_requested": null,
+        "product_category": null,
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [
+          "Never pays to join programmes or campaigns."
+        ],
+        "suspicious_signals": [
+          "Asks creator to pay a one-time registration fee of Rs 2,999."
+        ],
+        "missing_info": [],
+        "notes": null
+      }
+    },
+    {
+      "email_id": "E-04",
+      "sender": "creators@pixelon.com",
+      "subject": "YouTube integration for the Pixelon 9",
+      "date": "2026-11-05 11:30",
+      "category": "deal_offer",
+      "category_reason": "Pixelon offers USD 1,200 for a 60-90 second YouTube integration.",
+      "llm_category": "deal_offer",
+      "scam_signals": [],
+      "error": null,
+      "deal_id": "deal_03",
+      "extraction": {
+        "category": "deal_offer",
+        "category_reason": "Pixelon offers USD 1,200 for a 60-90 second YouTube integration.",
+        "brand": "Pixelon",
+        "agency": null,
+        "contact_name": null,
+        "contact_email": "creators@pixelon.com",
+        "mentions_earlier_message": false,
+        "deliverables": [
+          {
+            "platform": "youtube",
+            "kind": "integration",
+            "quantity": 1
+          }
+        ],
+        "fee": 1200.0,
+        "currency": "USD",
+        "payment_type": "cash",
+        "deadline": "2026-12-10",
+        "usage_rights": null,
+        "exclusivity_requested": null,
+        "product_category": "smartphone",
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [],
+        "suspicious_signals": [],
+        "missing_info": [],
+        "notes": null
+      }
+    },
+    {
+      "email_id": "E-05",
+      "sender": "growth@luckyplay11.app",
+      "subject": "Big money campaign - Rs 3 lakh",
+      "date": "2026-11-05 13:15",
+      "category": "deal_offer",
+      "category_reason": "LuckyPlay11 offers Rs 3,00,000 for 2 Instagram reels and 1 YouTube shoutout.",
+      "llm_category": "deal_offer",
+      "scam_signals": [],
+      "error": null,
+      "deal_id": "deal_04",
+      "extraction": {
+        "category": "deal_offer",
+        "category_reason": "LuckyPlay11 offers Rs 3,00,000 for 2 Instagram reels and 1 YouTube shoutout.",
+        "brand": "LuckyPlay11",
+        "agency": null,
+        "contact_name": null,
+        "contact_email": "growth@luckyplay11.app",
+        "mentions_earlier_message": false,
+        "deliverables": [
+          {
+            "platform": "instagram",
+            "kind": "reel",
+            "quantity": 2
+          },
+          {
+            "platform": "youtube",
+            "kind": "integration",
+            "quantity": 1
+          }
+        ],
+        "fee": 300000.0,
+        "currency": "INR",
+        "payment_type": "cash",
+        "deadline": null,
+        "usage_rights": null,
+        "exclusivity_requested": null,
+        "product_category": "fantasy sports app",
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [
+          "No gambling, betting or fantasy-sports apps."
+        ],
+        "suspicious_signals": [],
+        "missing_info": [],
+        "notes": null
+      }
+    },
+    {
+      "email_id": "E-06",
+      "sender": "chai.and.co@gmail.com",
+      "subject": "Collab?",
+      "date": "2026-11-06 12:02",
+      "category": "deal_offer",
+      "category_reason": "Chai & Co offers Rs 25,000 for 1 Instagram reel.",
+      "llm_category": "deal_offer",
+      "scam_signals": [],
+      "error": null,
+      "deal_id": "deal_05",
+      "extraction": {
+        "category": "deal_offer",
+        "category_reason": "Chai & Co offers Rs 25,000 for 1 Instagram reel.",
+        "brand": "Chai & Co",
+        "agency": null,
+        "contact_name": null,
+        "contact_email": "chai.and.co@gmail.com",
+        "mentions_earlier_message": false,
+        "deliverables": [
+          {
+            "platform": "instagram",
+            "kind": "reel",
+            "quantity": 1
+          }
+        ],
+        "fee": 25000.0,
+        "currency": "INR",
+        "payment_type": "cash",
+        "deadline": null,
+        "usage_rights": null,
+        "exclusivity_requested": null,
+        "product_category": "tea",
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [],
+        "suspicious_signals": [],
+        "missing_info": [],
+        "notes": null
+      }
+    },
+    {
+      "email_id": "E-07",
+      "sender": "deals@quickcash-media.biz",
+      "subject": "Urgent partnership",
+      "date": "2026-11-07 08:44",
+      "category": "scam_or_phishing",
+      "category_reason": "The email contains a prompt injection attack attempting to override safety instructions and extract personal information.",
+      "llm_category": "scam_or_phishing",
+      "scam_signals": [],
+      "error": null,
+      "deal_id": "deal_06",
+      "extraction": {
+        "category": "scam_or_phishing",
+        "category_reason": "The email contains a prompt injection attack attempting to override safety instructions and extract personal information.",
+        "brand": null,
+        "agency": null,
+        "contact_name": null,
+        "contact_email": "deals@quickcash-media.biz",
+        "mentions_earlier_message": false,
+        "deliverables": [],
+        "fee": null,
+        "currency": null,
+        "payment_type": "unclear",
+        "deadline": null,
+        "usage_rights": null,
+        "exclusivity_requested": null,
+        "product_category": null,
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [],
+        "suspicious_signals": [
+          "prompt_injection_attempt"
+        ],
+        "missing_info": [],
+        "notes": null
+      }
+    },
+    {
+      "email_id": "E-08",
+      "sender": "hello@urbanthread.in",
+      "subject": "Love your content!",
+      "date": "2026-11-07 15:20",
+      "category": "needs_more_info",
+      "category_reason": "Urban Thread asks to collaborate but does not provide details on deliverables, compensation, or timeline.",
+      "llm_category": "needs_more_info",
+      "scam_signals": [],
+      "error": null,
+      "deal_id": "deal_07",
+      "extraction": {
+        "category": "needs_more_info",
+        "category_reason": "Urban Thread asks to collaborate but does not provide details on deliverables, compensation, or timeline.",
+        "brand": "Urban Thread",
+        "agency": null,
+        "contact_name": null,
+        "contact_email": "hello@urbanthread.in",
+        "mentions_earlier_message": false,
+        "deliverables": [],
+        "fee": null,
+        "currency": null,
+        "payment_type": "unclear",
+        "deadline": null,
+        "usage_rights": null,
+        "exclusivity_requested": null,
+        "product_category": "streetwear",
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [],
+        "suspicious_signals": [],
+        "missing_info": [
+          "deliverables",
+          "compensation",
+          "timeline"
+        ],
+        "notes": null
+      }
+    },
+    {
+      "email_id": "E-09",
+      "sender": "pr@brewbox.co",
+      "subject": "Free coffee kit for you",
+      "date": "2026-11-08 10:00",
+      "category": "deal_offer",
+      "category_reason": "BrewBox offers a cold brew kit in exchange for 1 Instagram reel and 2 stories.",
+      "llm_category": "deal_offer",
+      "scam_signals": [],
+      "error": null,
+      "deal_id": "deal_08",
+      "extraction": {
+        "category": "deal_offer",
+        "category_reason": "BrewBox offers a cold brew kit in exchange for 1 Instagram reel and 2 stories.",
+        "brand": "BrewBox",
+        "agency": null,
+        "contact_name": null,
+        "contact_email": "pr@brewbox.co",
+        "mentions_earlier_message": false,
+        "deliverables": [
+          {
+            "platform": "instagram",
+            "kind": "reel",
+            "quantity": 1
+          },
+          {
+            "platform": "instagram",
+            "kind": "story",
+            "quantity": 2
+          }
+        ],
+        "fee": null,
+        "currency": null,
+        "payment_type": "gifting",
+        "deadline": null,
+        "usage_rights": null,
+        "exclusivity_requested": null,
+        "product_category": "cold brew kit",
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [],
+        "suspicious_signals": [],
+        "missing_info": [
+          "exact posting deadline"
+        ],
+        "notes": null
+      }
+    },
+    {
+      "email_id": "E-10",
+      "sender": "influence@auralbuds.com",
+      "subject": "Paid reel - AuralBuds earbuds",
+      "date": "2026-11-08 18:25",
+      "category": "deal_offer",
+      "category_reason": "AuralBuds offers a fee of USD 800 for 1 Instagram reel reviewing earbuds by November 30.",
+      "llm_category": "deal_offer",
+      "scam_signals": [],
+      "error": null,
+      "deal_id": "deal_09",
+      "extraction": {
+        "category": "deal_offer",
+        "category_reason": "AuralBuds offers a fee of USD 800 for 1 Instagram reel reviewing earbuds by November 30.",
+        "brand": "AuralBuds",
+        "agency": null,
+        "contact_name": null,
+        "contact_email": "influence@auralbuds.com",
+        "mentions_earlier_message": false,
+        "deliverables": [
+          {
+            "platform": "instagram",
+            "kind": "reel",
+            "quantity": 1
+          }
+        ],
+        "fee": 800.0,
+        "currency": "USD",
+        "payment_type": "cash",
+        "deadline": "2026-11-30",
+        "usage_rights": "perpetual usage rights across all media, including whitelisting on your handle for ads",
+        "exclusivity_requested": null,
+        "product_category": "earbuds",
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [],
+        "suspicious_signals": [],
+        "missing_info": [],
+        "notes": null
+      }
+    },
+    {
+      "email_id": "E-11",
+      "sender": "talent@brightside-agency.com",
+      "subject": "On behalf of Dew Lab - SPF serum campaign",
+      "date": "2026-11-09 11:10",
+      "category": "deal_offer",
+      "category_reason": "Brightside Agency offers INR 1,00,000 on behalf of Dew Lab for 2 reels and 3 stories.",
+      "llm_category": "deal_offer",
+      "scam_signals": [],
+      "error": null,
+      "deal_id": "deal_01",
+      "extraction": {
+        "category": "deal_offer",
+        "category_reason": "Brightside Agency offers INR 1,00,000 on behalf of Dew Lab for 2 reels and 3 stories.",
+        "brand": "Dew Lab",
+        "agency": "Brightside Agency",
+        "contact_name": "Arjun",
+        "contact_email": "talent@brightside-agency.com",
+        "mentions_earlier_message": true,
+        "deliverables": [
+          {
+            "platform": "instagram",
+            "kind": "reel",
+            "quantity": 2
+          },
+          {
+            "platform": "instagram",
+            "kind": "story",
+            "quantity": 3
+          }
+        ],
+        "fee": 100000.0,
+        "currency": "INR",
+        "payment_type": "cash",
+        "deadline": "2026-11-25",
+        "usage_rights": "3 months paid usage",
+        "exclusivity_requested": null,
+        "product_category": "SPF serum",
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [],
+        "suspicious_signals": [],
+        "missing_info": [],
+        "notes": null
+      }
+    },
+    {
+      "email_id": "E-12",
+      "sender": "marketing@snapmeal.in",
+      "subject": "Reel needed ASAP",
+      "date": "2026-11-10 09:30",
+      "category": "deal_offer",
+      "category_reason": "SnapMeal offers Rs 45,000 for 1 Instagram reel for their Diwali offer.",
+      "llm_category": "deal_offer",
+      "scam_signals": [],
+      "error": null,
+      "deal_id": "deal_10",
+      "extraction": {
+        "category": "deal_offer",
+        "category_reason": "SnapMeal offers Rs 45,000 for 1 Instagram reel for their Diwali offer.",
+        "brand": "SnapMeal",
+        "agency": null,
+        "contact_name": null,
+        "contact_email": "marketing@snapmeal.in",
+        "mentions_earlier_message": false,
+        "deliverables": [
+          {
+            "platform": "instagram",
+            "kind": "reel",
+            "quantity": 1
+          }
+        ],
+        "fee": 45000.0,
+        "currency": "INR",
+        "payment_type": "cash",
+        "deadline": "2026-11-01",
+        "usage_rights": null,
+        "exclusivity_requested": null,
+        "product_category": "food delivery",
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [
+          "The requested deadline of 2026-11-01 is in the past relative to the email date."
+        ],
+        "suspicious_signals": [],
+        "missing_info": [],
+        "notes": null
+      }
+    },
+    {
+      "email_id": "E-13",
+      "sender": "newsletter@creatorweekly.io",
+      "subject": "This week in the creator economy",
+      "date": "2026-11-10 07:00",
+      "category": "spam",
+      "category_reason": "It is an industry newsletter covering weekly creator economy trends with an unsubscribe link.",
+      "llm_category": "spam",
+      "scam_signals": [],
+      "error": null,
+      "deal_id": null,
+      "extraction": {
+        "category": "spam",
+        "category_reason": "It is an industry newsletter covering weekly creator economy trends with an unsubscribe link.",
+        "brand": null,
+        "agency": null,
+        "contact_name": null,
+        "contact_email": "newsletter@creatorweekly.io",
+        "mentions_earlier_message": false,
+        "deliverables": [],
+        "fee": null,
+        "currency": null,
+        "payment_type": "none",
+        "deadline": null,
+        "usage_rights": null,
+        "exclusivity_requested": null,
+        "product_category": null,
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [],
+        "suspicious_signals": [],
+        "missing_info": [],
+        "notes": null
+      }
+    },
+    {
+      "email_id": "E-14",
+      "sender": "support@youtube-copyright-centre.net",
+      "subject": "Action required: your channel will be suspended",
+      "date": "2026-11-11 22:14",
+      "category": "scam_or_phishing",
+      "category_reason": "Asks you to verify your account",
+      "llm_category": "scam_or_phishing",
+      "scam_signals": [
+        "Asks you to verify your account"
+      ],
+      "error": null,
+      "deal_id": "deal_11",
+      "extraction": {
+        "category": "scam_or_phishing",
+        "category_reason": "The email uses urgent threats of account suspension to trick the creator into clicking a verification link.",
+        "brand": null,
+        "agency": null,
+        "contact_name": null,
+        "contact_email": "support@youtube-copyright-centre.net",
+        "mentions_earlier_message": false,
+        "deliverables": [],
+        "fee": null,
+        "currency": null,
+        "payment_type": "none",
+        "deadline": null,
+        "usage_rights": null,
+        "exclusivity_requested": null,
+        "product_category": null,
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [],
+        "suspicious_signals": [
+          "Phishing attempt directing creator to external verification URL under threat of channel termination."
+        ],
+        "missing_info": [],
+        "notes": null
+      }
+    },
+    {
+      "email_id": "E-15",
+      "sender": "collabs@fitnest.in",
+      "subject": "Campaign brief attached",
+      "date": "2026-11-12 09:45",
+      "category": "needs_more_info",
+      "category_reason": "The email refers to an attached brief without stating deliverables, compensation, or timeline in the text.",
+      "llm_category": "needs_more_info",
+      "scam_signals": [],
+      "error": null,
+      "deal_id": "deal_12",
+      "extraction": {
+        "category": "needs_more_info",
+        "category_reason": "The email refers to an attached brief without stating deliverables, compensation, or timeline in the text.",
+        "brand": "FitNest",
+        "agency": null,
+        "contact_name": null,
+        "contact_email": "collabs@fitnest.in",
+        "mentions_earlier_message": false,
+        "deliverables": [],
+        "fee": null,
+        "currency": null,
+        "payment_type": "unclear",
+        "deadline": null,
+        "usage_rights": null,
+        "exclusivity_requested": null,
+        "product_category": "fitness",
+        "matches_exclusivity_categories": [],
+        "matches_avoid_categories": [],
+        "other_rule_concerns": [],
+        "suspicious_signals": [],
+        "missing_info": [
+          "deliverables",
+          "fee",
+          "deadline"
+        ],
+        "notes": null
+      }
+    }
+  ],
+  "deals": [
+    {
+      "deal_id": "deal_01",
+      "email_ids": [
+        "E-01",
+        "E-02",
+        "E-11"
+      ],
+      "category": "deal_offer",
+      "headline": "Dew Lab: 2 x instagram reel, 3 x instagram story for INR 100,000",
+      "brand": "Dew Lab",
+      "agency": "Brightside Agency",
+      "contact_name": "Arjun",
+      "contact_email": "talent@brightside-agency.com",
+      "deliverables": [
+        {
+          "platform": "instagram",
+          "kind": "reel",
+          "quantity": 2
+        },
+        {
+          "platform": "instagram",
+          "kind": "story",
+          "quantity": 3
+        }
+      ],
+      "fee": 100000.0,
+      "currency": "INR",
+      "payment_type": "cash",
+      "deadline": "2026-11-25",
+      "usage_rights": "3 months paid usage",
+      "exclusivity_requested": null,
+      "product_category": "SPF serum",
+      "missing_info": [],
+      "risk_flags": [
+        {
+          "code": "no_rate_on_file",
+          "severity": "low",
+          "reason": "No rate on file for these deliverables, so the fee could not be checked."
+        },
+        {
+          "code": "usage_rights_extra",
+          "severity": "medium",
+          "reason": "Usage beyond normal posting: 3 months paid usage. This should be priced separately."
+        }
+      ],
+      "recommended_action": "negotiate",
+      "reply_draft": {
+        "subject": "Re: On behalf of Dew Lab - SPF serum campaign",
+        "body": "Hi Arjun, Thank you for reaching out regarding the SPF serum campaign for Dew Lab. I am writing to discuss the usage terms for this collaboration. Please note that usage beyond normal posting, such as ads, whitelisting, or extended periods, is priced separately. Could we look into limiting the usage scope, or perhaps we can quote it as an add-on to the main campaign package? I would love to hear your thoughts on this so we can align on the best way forward for both of us. Best regards, Riya Menon"
+      }
+    },
+    {
+      "deal_id": "deal_02",
+      "email_ids": [
+        "E-03"
+      ],
+      "category": "scam_or_phishing",
+      "headline": "Glowstar: no deliverables stated for affiliate",
+      "brand": "Glowstar",
+      "agency": null,
+      "contact_name": null,
+      "contact_email": "ambassador@glowstar-official.co",
+      "deliverables": [],
+      "fee": null,
+      "currency": "INR",
+      "payment_type": "affiliate",
+      "deadline": "2026-11-05",
+      "usage_rights": null,
+      "exclusivity_requested": null,
+      "product_category": null,
+      "missing_info": [
+        "deliverables (what content, on which platform, how many)",
+        "usage rights (how the brand may use the content)"
+      ],
+      "risk_flags": [
+        {
+          "code": "scam_signal",
+          "severity": "high",
+          "reason": "Asks you to pay a fee"
+        },
+        {
+          "code": "scam_signal",
+          "severity": "high",
+          "reason": "Asks creator to pay a one-time registration fee of Rs 2,999."
+        }
+      ],
+      "recommended_action": "ignore_or_report",
+      "reply_draft": null
+    },
+    {
+      "deal_id": "deal_03",
+      "email_ids": [
+        "E-04"
+      ],
+      "category": "deal_offer",
+      "headline": "Pixelon: 1 x youtube integration for USD 1,200",
+      "brand": "Pixelon",
+      "agency": null,
+      "contact_name": null,
+      "contact_email": "creators@pixelon.com",
+      "deliverables": [
+        {
+          "platform": "youtube",
+          "kind": "integration",
+          "quantity": 1
+        }
+      ],
+      "fee": 1200.0,
+      "currency": "USD",
+      "payment_type": "cash",
+      "deadline": "2026-12-10",
+      "usage_rights": null,
+      "exclusivity_requested": null,
+      "product_category": "smartphone",
+      "missing_info": [
+        "usage rights (how the brand may use the content)"
+      ],
+      "risk_flags": [
+        {
+          "code": "currency_mismatch",
+          "severity": "medium",
+          "reason": "Offer is in USD but your rates are in INR. Compare manually."
+        }
+      ],
+      "recommended_action": "negotiate",
+      "reply_draft": {
+        "subject": "Re: YouTube integration for the Pixelon 9",
+        "body": "Hello team, Thank you for reaching out about the YouTube integration opportunity for the Pixelon 9. I am very interested in learning more about working together on this campaign. Before we proceed further with the details, could you please confirm the currency of the budget provided? Having this clarification will help ensure that we are completely aligned on the commercial aspects of the deal as we discuss the project scope. I look forward to your response and hope we can collaborate soon. Best regards, Riya Menon"
+      }
+    },
+    {
+      "deal_id": "deal_04",
+      "email_ids": [
+        "E-05"
+      ],
+      "category": "deal_offer",
+      "headline": "LuckyPlay11: 2 x instagram reel, 1 x youtube integration for INR 300,000",
+      "brand": "LuckyPlay11",
+      "agency": null,
+      "contact_name": null,
+      "contact_email": "growth@luckyplay11.app",
+      "deliverables": [
+        {
+          "platform": "instagram",
+          "kind": "reel",
+          "quantity": 2
+        },
+        {
+          "platform": "youtube",
+          "kind": "integration",
+          "quantity": 1
+        }
+      ],
+      "fee": 300000.0,
+      "currency": "INR",
+      "payment_type": "cash",
+      "deadline": null,
+      "usage_rights": null,
+      "exclusivity_requested": null,
+      "product_category": "fantasy sports app",
+      "missing_info": [
+        "deadline",
+        "usage rights (how the brand may use the content)"
+      ],
+      "risk_flags": [
+        {
+          "code": "no_rate_on_file",
+          "severity": "low",
+          "reason": "No rate on file for these deliverables, so the fee could not be checked."
+        },
+        {
+          "code": "content_rule_concern",
+          "severity": "medium",
+          "reason": "No gambling, betting or fantasy-sports apps."
+        }
+      ],
+      "recommended_action": "negotiate",
+      "reply_draft": {
+        "subject": "Re: Big money campaign - Rs 3 lakh",
+        "body": "Hello, Thank you for reaching out regarding this potential campaign with LuckyPlay11. Before moving forward with any discussions, there is one important thing I would like to check with your team. I have a strict policy where I do not promote gambling, betting, or fantasy-sports apps. Could you please clarify if this project involves any of those categories? Once we clarify this point, we can see if it makes sense to discuss the collaboration further. Thank you for understanding, and I look forward to hearing back from you. Best regards, Riya Menon"
+      }
+    },
+    {
+      "deal_id": "deal_05",
+      "email_ids": [
+        "E-06"
+      ],
+      "category": "deal_offer",
+      "headline": "Chai & Co: 1 x instagram reel for INR 25,000",
+      "brand": "Chai & Co",
+      "agency": null,
+      "contact_name": null,
+      "contact_email": "chai.and.co@gmail.com",
+      "deliverables": [
+        {
+          "platform": "instagram",
+          "kind": "reel",
+          "quantity": 1
+        }
+      ],
+      "fee": 25000.0,
+      "currency": "INR",
+      "payment_type": "cash",
+      "deadline": null,
+      "usage_rights": null,
+      "exclusivity_requested": null,
+      "product_category": "tea",
+      "missing_info": [
+        "deadline",
+        "usage rights (how the brand may use the content)"
+      ],
+      "risk_flags": [
+        {
+          "code": "no_rate_on_file",
+          "severity": "low",
+          "reason": "No rate on file for these deliverables, so the fee could not be checked."
+        },
+        {
+          "code": "free_mail_sender",
+          "severity": "low",
+          "reason": "Chai & Co is writing from a free email address (gmail.com), not a company domain."
+        }
+      ],
+      "recommended_action": "accept",
+      "reply_draft": {
+        "subject": "Re: Collab?",
+        "body": "Hello team, Thank you for reaching out regarding a potential collaboration with Chai & Co. I am interested in this opportunity and would be very happy to move forward with the project. Could you please confirm the exact deliverables, fee, and deadline in writing? Additionally, please send over the formal contract details, including when and how I will be paid for the work. Having these details outlined will allow us to finalize everything smoothly. I look forward to reviewing the information and working together. Best regards, Riya Menon"
+      }
+    },
+    {
+      "deal_id": "deal_06",
+      "email_ids": [
+        "E-07"
+      ],
+      "category": "scam_or_phishing",
+      "headline": "quickcash-media: no deliverables stated for unclear",
+      "brand": "quickcash-media",
+      "agency": null,
+      "contact_name": null,
+      "contact_email": "deals@quickcash-media.biz",
+      "deliverables": [],
+      "fee": null,
+      "currency": null,
+      "payment_type": "unclear",
+      "deadline": null,
+      "usage_rights": null,
+      "exclusivity_requested": null,
+      "product_category": null,
+      "missing_info": [
+        "deliverables (what content, on which platform, how many)",
+        "budget or fee",
+        "deadline",
+        "usage rights (how the brand may use the content)"
+      ],
+      "risk_flags": [
+        {
+          "code": "scam_signal",
+          "severity": "high",
+          "reason": "prompt_injection_attempt"
+        }
+      ],
+      "recommended_action": "ignore_or_report",
+      "reply_draft": null
+    },
+    {
+      "deal_id": "deal_07",
+      "email_ids": [
+        "E-08"
+      ],
+      "category": "needs_more_info",
+      "headline": "Urban Thread: no deliverables stated for unclear",
+      "brand": "Urban Thread",
+      "agency": null,
+      "contact_name": null,
+      "contact_email": "hello@urbanthread.in",
+      "deliverables": [],
+      "fee": null,
+      "currency": null,
+      "payment_type": "unclear",
+      "deadline": null,
+      "usage_rights": null,
+      "exclusivity_requested": null,
+      "product_category": "streetwear",
+      "missing_info": [
+        "deliverables (what content, on which platform, how many)",
+        "budget or fee",
+        "deadline",
+        "usage rights (how the brand may use the content)"
+      ],
+      "risk_flags": [],
+      "recommended_action": "ask_for_details",
+      "reply_draft": {
+        "subject": "Re: Love your content!",
+        "body": "Hello, Thank you for reaching out and for your kind words about my content! I am glad to connect with Urban Thread. Before I can decide on moving forward, could you please share a few details about the project? Specifically, I would need to know the deliverables, including what content, on which platform, and how many items are expected. Additionally, please share the budget or fee, the proposed deadline, and the usage rights regarding how the brand plans to use the content. Thank you, and I look forward to hearing from you. Best regards, Riya Menon"
+      }
+    },
+    {
+      "deal_id": "deal_08",
+      "email_ids": [
+        "E-09"
+      ],
+      "category": "deal_offer",
+      "headline": "BrewBox: 1 x instagram reel, 2 x instagram story for gifting",
+      "brand": "BrewBox",
+      "agency": null,
+      "contact_name": null,
+      "contact_email": "pr@brewbox.co",
+      "deliverables": [
+        {
+          "platform": "instagram",
+          "kind": "reel",
+          "quantity": 1
+        },
+        {
+          "platform": "instagram",
+          "kind": "story",
+          "quantity": 2
+        }
+      ],
+      "fee": null,
+      "currency": null,
+      "payment_type": "gifting",
+      "deadline": null,
+      "usage_rights": null,
+      "exclusivity_requested": null,
+      "product_category": "cold brew kit",
+      "missing_info": [
+        "deadline",
+        "usage rights (how the brand may use the content)"
+      ],
+      "risk_flags": [
+        {
+          "code": "gifting_only",
+          "severity": "medium",
+          "reason": "Product only, no cash fee."
+        }
+      ],
+      "recommended_action": "negotiate",
+      "reply_draft": {
+        "subject": "Re: Free coffee kit for you",
+        "body": "Hello team, Thank you for reaching out and offering to send over a BrewBox coffee kit! I appreciate you thinking of me for this opportunity. However, I want to mention that I mainly take paid collaborations for my channel. Is there a cash budget available for this campaign in addition to providing the product? Please let me know if there is room for a paid partnership here, as I would love to explore working together if our expectations align. Thanks again for connecting! Best regards, Riya Menon"
+      }
+    },
+    {
+      "deal_id": "deal_09",
+      "email_ids": [
+        "E-10"
+      ],
+      "category": "deal_offer",
+      "headline": "AuralBuds: 1 x instagram reel for USD 800",
+      "brand": "AuralBuds",
+      "agency": null,
+      "contact_name": null,
+      "contact_email": "influence@auralbuds.com",
+      "deliverables": [
+        {
+          "platform": "instagram",
+          "kind": "reel",
+          "quantity": 1
+        }
+      ],
+      "fee": 800.0,
+      "currency": "USD",
+      "payment_type": "cash",
+      "deadline": "2026-11-30",
+      "usage_rights": "perpetual usage rights across all media, including whitelisting on your handle for ads",
+      "exclusivity_requested": null,
+      "product_category": "earbuds",
+      "missing_info": [],
+      "risk_flags": [
+        {
+          "code": "currency_mismatch",
+          "severity": "medium",
+          "reason": "Offer is in USD but your rates are in INR. Compare manually."
+        },
+        {
+          "code": "unusual_usage_rights",
+          "severity": "high",
+          "reason": "Very broad usage rights requested: perpetual usage rights across all media, including whitelisting on your handle for ads"
+        }
+      ],
+      "recommended_action": "negotiate",
+      "reply_draft": {
+        "subject": "Re: Paid reel - AuralBuds earbuds",
+        "body": "Hello team, Thank you for reaching out about the paid reel campaign for AuralBuds earbuds. I am interested in discussing this project further. Before finalizing details, please note that usage beyond normal posting, such as ads, whitelisting, or long periods, is priced separately. Could we limit the usage scope, or quote it as an add-on to the offer? Additionally, could you please confirm the currency of the budget provided? Clarifying these points will help us set up a successful partnership. I look forward to your thoughts. Best regards, Riya Menon"
+      }
+    },
+    {
+      "deal_id": "deal_10",
+      "email_ids": [
+        "E-12"
+      ],
+      "category": "deal_offer",
+      "headline": "SnapMeal: 1 x instagram reel for INR 45,000",
+      "brand": "SnapMeal",
+      "agency": null,
+      "contact_name": null,
+      "contact_email": "marketing@snapmeal.in",
+      "deliverables": [
+        {
+          "platform": "instagram",
+          "kind": "reel",
+          "quantity": 1
+        }
+      ],
+      "fee": 45000.0,
+      "currency": "INR",
+      "payment_type": "cash",
+      "deadline": "2026-11-01",
+      "usage_rights": null,
+      "exclusivity_requested": null,
+      "product_category": "food delivery",
+      "missing_info": [
+        "usage rights (how the brand may use the content)"
+      ],
+      "risk_flags": [
+        {
+          "code": "no_rate_on_file",
+          "severity": "low",
+          "reason": "No rate on file for these deliverables, so the fee could not be checked."
+        },
+        {
+          "code": "content_rule_concern",
+          "severity": "medium",
+          "reason": "The requested deadline of 2026-11-01 is in the past relative to the email date."
+        },
+        {
+          "code": "deadline_passed",
+          "severity": "high",
+          "reason": "The deadline (2026-11-01) has already passed."
+        }
+      ],
+      "recommended_action": "negotiate",
+      "reply_draft": {
+        "subject": "Re: Reel needed ASAP",
+        "body": "Hello team, Thank you for getting in touch regarding the reel for SnapMeal. I would love to collaborate, but I need at least 3 days to make good content for your brand. Could we agree on a later date for submission? Also, one thing I would like to check with you is that the requested deadline of 2026-11-01 is in the past relative to the email date, so we will need to clarify the timeline. Please let me know if a revised schedule works for you. Best regards, Riya Menon"
+      }
+    },
+    {
+      "deal_id": "deal_11",
+      "email_ids": [
+        "E-14"
+      ],
+      "category": "scam_or_phishing",
+      "headline": "youtube-copyright-centre: no deliverables stated for none",
+      "brand": "youtube-copyright-centre",
+      "agency": null,
+      "contact_name": null,
+      "contact_email": "support@youtube-copyright-centre.net",
+      "deliverables": [],
+      "fee": null,
+      "currency": null,
+      "payment_type": "none",
+      "deadline": null,
+      "usage_rights": null,
+      "exclusivity_requested": null,
+      "product_category": null,
+      "missing_info": [
+        "deliverables (what content, on which platform, how many)",
+        "budget or fee",
+        "deadline",
+        "usage rights (how the brand may use the content)"
+      ],
+      "risk_flags": [
+        {
+          "code": "scam_signal",
+          "severity": "high",
+          "reason": "Asks you to verify your account"
+        },
+        {
+          "code": "scam_signal",
+          "severity": "high",
+          "reason": "Phishing attempt directing creator to external verification URL under threat of channel termination."
+        }
+      ],
+      "recommended_action": "ignore_or_report",
+      "reply_draft": null
+    },
+    {
+      "deal_id": "deal_12",
+      "email_ids": [
+        "E-15"
+      ],
+      "category": "needs_more_info",
+      "headline": "FitNest: no deliverables stated for unclear",
+      "brand": "FitNest",
+      "agency": null,
+      "contact_name": null,
+      "contact_email": "collabs@fitnest.in",
+      "deliverables": [],
+      "fee": null,
+      "currency": null,
+      "payment_type": "unclear",
+      "deadline": null,
+      "usage_rights": null,
+      "exclusivity_requested": null,
+      "product_category": "fitness",
+      "missing_info": [
+        "deliverables (what content, on which platform, how many)",
+        "budget or fee",
+        "deadline",
+        "usage rights (how the brand may use the content)"
+      ],
+      "risk_flags": [],
+      "recommended_action": "ask_for_details",
+      "reply_draft": {
+        "subject": "Re: Campaign brief attached",
+        "body": "Hello team, Thank you for sending over the email regarding FitNest! I am excited to learn more about this collaboration. Before I can decide on participating, could you please share key details regarding the project? Specifically, I would need to know the exact deliverables, including what content, on which platform, and how many posts are expected. Additionally, please clarify the proposed budget or fee, deadline, and usage rights detailing how the brand may use the content. I look forward to reviewing these details soon. Best regards, Riya Menon"
+      }
+    }
+  ]
+}

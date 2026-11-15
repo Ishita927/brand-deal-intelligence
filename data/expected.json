@@ -1,0 +1,233 @@
+
+{
+  "emails": {
+    "E-01": {
+      "category": "deal_offer",
+      "deal": "A",
+      "subject": "Collab: Dew Lab x Riya Creates"
+    },
+    "E-02": {
+      "category": "deal_offer",
+      "deal": "A",
+      "subject": "Re: Collab: Dew Lab x Riya Creates"
+    },
+    "E-03": {
+      "category": "scam_or_phishing",
+      "deal": null,
+      "subject": "Congratulations! You're selected as a Brand Ambassador"
+    },
+    "E-04": {
+      "category": "deal_offer",
+      "deal": "B",
+      "subject": "YouTube integration for the Pixelon 9"
+    },
+    "E-05": {
+      "category": "deal_offer",
+      "deal": "C",
+      "subject": "Big money campaign - Rs 3 lakh"
+    },
+    "E-06": {
+      "category": "deal_offer",
+      "deal": "D",
+      "subject": "Collab?"
+    },
+    "E-07": {
+      "category": "scam_or_phishing",
+      "deal": null,
+      "subject": "Urgent partnership"
+    },
+    "E-08": {
+      "category": "needs_more_info",
+      "deal": null,
+      "subject": "Love your content!"
+    },
+    "E-09": {
+      "category": "deal_offer",
+      "deal": "E",
+      "subject": "Free coffee kit for you"
+    },
+    "E-10": {
+      "category": "deal_offer",
+      "deal": "F",
+      "subject": "Paid reel - AuralBuds earbuds"
+    },
+    "E-11": {
+      "category": "deal_offer",
+      "deal": "A",
+      "subject": "On behalf of Dew Lab - SPF serum campaign"
+    },
+    "E-12": {
+      "category": "deal_offer",
+      "deal": "G",
+      "subject": "Reel needed ASAP"
+    },
+    "E-13": {
+      "category": "spam",
+      "deal": null,
+      "subject": "This week in the creator economy"
+    },
+    "E-14": {
+      "category": "scam_or_phishing",
+      "deal": null,
+      "subject": "Action required: your channel will be suspended"
+    },
+    "E-15": {
+      "category": "needs_more_info",
+      "deal": null,
+      "subject": "Campaign brief attached"
+    }
+  },
+  "deals": {
+    "A": {
+      "brand": "Dew Lab",
+      "email_ids": ["E-01", "E-02", "E-11"],
+      "campaign": "SPF serum campaign",
+      "platform": "Instagram",
+      "deliverables": [
+        "2 Instagram Reels",
+        "3 Instagram Stories"
+      ],
+      "fee": 100000,
+      "currency": "INR",
+      "payment_type": "cash",
+      "campaign_period": "15-25 November 2026",
+      "usage_rights": "3 months paid advertising usage",
+      "initial_fee": 120000,
+      "latest_fee": 100000,
+      "action": "negotiate",
+      "risks": [
+        "Budget reduced from INR 120000 to INR 100000",
+        "All-inclusive fee needs clarification",
+        "Payment schedule is not specified",
+        "Usage rights scope needs clarification"
+      ]
+    },
+    "B": {
+      "brand": "Pixelon",
+      "email_ids": ["E-04"],
+      "campaign": "Pixelon 9 smartphone",
+      "platform": "YouTube",
+      "deliverables": [
+        "One 60-90 second video integration"
+      ],
+      "fee": 1200,
+      "currency": "USD",
+      "payment_type": "cash",
+      "deadline": "2026-12-10",
+      "usage_rights": null,
+      "action": "ask_for_details",
+      "risks": [
+        "Usage rights are not specified",
+        "Payment schedule is not specified"
+      ]
+    },
+    "C": {
+      "brand": "LuckyPlay11",
+      "email_ids": ["E-05"],
+      "campaign": "Fantasy cricket promotion",
+      "platform": [
+        "Instagram",
+        "YouTube"
+      ],
+      "deliverables": [
+        "2 Instagram Reels",
+        "1 YouTube shoutout"
+      ],
+      "fee": 300000,
+      "currency": "INR",
+      "payment_type": "cash",
+      "usage_rights": null,
+      "action": "ask_for_details",
+      "risks": [
+        "Fantasy gaming and gambling-related promotional content",
+        "No long contract mentioned",
+        "Payment terms are unclear",
+        "Usage rights are unspecified"
+      ]
+    },
+    "D": {
+      "brand": "Chai & Co",
+      "email_ids": ["E-06"],
+      "campaign": "Instagram Reel collaboration",
+      "platform": "Instagram",
+      "deliverables": [
+        "1 Instagram Reel"
+      ],
+      "fee": 25000,
+      "currency": "INR",
+      "payment_type": "cash",
+      "usage_rights": null,
+      "action": "ask_for_details",
+      "risks": [
+        "Payment schedule is unspecified",
+        "Usage rights are unspecified",
+        "Campaign deadline is unspecified",
+        "Currency inferred from Indian context"
+      ]
+    },
+    "E": {
+      "brand": "BrewBox",
+      "email_ids": ["E-09"],
+      "campaign": "Cold brew kit promotion",
+      "platform": "Instagram",
+      "deliverables": [
+        "1 Instagram Reel",
+        "2 Instagram Stories"
+      ],
+      "fee": 3500,
+      "currency": "INR",
+      "payment_type": "gifting",
+      "gift_value": 3500,
+      "deadline": "Within 2 weeks of product delivery",
+      "usage_rights": null,
+      "action": "negotiate",
+      "risks": [
+        "No cash compensation",
+        "Usage rights are unspecified",
+        "Delivery date is not specified"
+      ]
+    },
+    "F": {
+      "brand": "AuralBuds",
+      "email_ids": ["E-10"],
+      "campaign": "Earbuds promotion",
+      "platform": "Instagram",
+      "deliverables": [
+        "1 Instagram Reel reviewing earbuds"
+      ],
+      "fee": 800,
+      "currency": "USD",
+      "payment_type": "cash",
+      "deadline": "2026-11-30",
+      "usage_rights": "Perpetual usage across all media",
+      "whitelisting": true,
+      "action": "negotiate",
+      "risks": [
+        "Perpetual usage rights",
+        "Unlimited media usage",
+        "Whitelisting permission on creator's handle",
+        "Additional advertising rights require negotiation"
+      ]
+    },
+    "G": {
+      "brand": "SnapMeal",
+      "email_ids": ["E-12"],
+      "campaign": "Diwali offer promotion",
+      "platform": "Instagram",
+      "deliverables": [
+        "1 Instagram Reel"
+      ],
+      "fee": 45000,
+      "currency": "INR",
+      "payment_type": "cash",
+      "deadline": "2026-11-01",
+      "usage_rights": null,
+      "action": "decline",
+      "risks": [
+        "Deadline had already passed when email was received",
+        "Deadline is impossible under the stated timeline",
+        "Payment terms are unspecified"
+      ]
+    }
+  }
+}
